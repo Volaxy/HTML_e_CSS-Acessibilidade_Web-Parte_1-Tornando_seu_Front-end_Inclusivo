@@ -15,6 +15,7 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
 * [NVDA](https://www.nvaccess.org/) - Site oficial do software da NVDA, que é um dos leitores de tela mais utilizados.
 * [Arquivos Base](https://github.com/designernatan/curso-acessibilidade-web-front-end-1/archive/14e5c4ffd5f7f6d767c8a88e88659f5cec5eb253.zip) - Arquivos base usados para o projeto.
 * [Atalhos NVDA](https://webaim.org/resources/shortcuts/nvda) - Todos os atalhos do software do NVDA.
+* [Float Label](https://css-tricks.com/float-labels-css/) - Padrão CSS para criar uma label flutuando no campo de input.
 
 ## Siglas &#x1F5FA;
 * NVDA - **N**on**V**isual **D**esktop **A**ccess.
@@ -85,3 +86,20 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
 
 ### 03 - Uma Ponta do WAI ARIA
 * Fazer o leitor de tela não ter uma redundância ao ler o conteúdo que contem uma imagem.
+
+***
+
+## 05 - Formulário Acessível &#x1F516;
+* Desativar campos e deixar eles acessíveis para consulta.
+* Detalhes sobre o zoom na página.
+
+### 01 - Formulário Acessível
+* Usar o atributo `for` para linkar o label com o input.
+* Não usar o `placeholder` como única referência descritiva do campo.
+* Diferença entre `disabled` e `read-only`.
+
+### 02 - Zoom no Celular
+* Desbloquear o zoom na página.
+
+### 03 - Legendas em Vídeo
+* Colocar legendas em um vídeo.
