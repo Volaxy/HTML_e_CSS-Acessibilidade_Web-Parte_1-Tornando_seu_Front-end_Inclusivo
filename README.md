@@ -14,6 +14,7 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
 * [WebAIM](https://webaim.org/projects/screenreadersurvey7/) - Link estatístico sobre leitores de tela em cada navegador.
 * [NVDA](https://www.nvaccess.org/) - Site oficial do software da NVDA, que é um dos leitores de tela mais utilizados.
 * [Arquivos Base](https://github.com/designernatan/curso-acessibilidade-web-front-end-1/archive/14e5c4ffd5f7f6d767c8a88e88659f5cec5eb253.zip) - Arquivos base usados para o projeto.
+* [Atalhos NVDA](https://webaim.org/resources/shortcuts/nvda) - Todos os atalhos do software do NVDA.
 
 ## Siglas &#x1F5FA;
 * NVDA - **N**on**V**isual **D**esktop **A**ccess.
@@ -25,6 +26,7 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
     * *SHIFT* + *k* - Ler o link anterior.
 * *g* - Ler próxima imagem do site.
     * *SHIFT* + *g* - Ler a imagem anterior.
+* *l* - Navega pelas listas no site.
 
 ## 01 - HTML e os Leitores de Tela &#x1F516;
 * Tomar cuidado com a marcação de conteúdo quando estamos utilizando elementos HTML5. Vale mais por uma `<div>` do que usar um `<aside>` ou `<details>` erroneamente.
@@ -56,3 +58,15 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
 ### 04 - Melhorando o alt
 * Descrever melhor o valor do `alt`.
 * Adicionar um `alt` sem valor para o leitor de leta ignorar.
+
+***
+
+## 03 - CSS Interfere no Leitor de Tela ou Não &#x1F516;
+* Como o CSS impacta no leitor de tela.
+* Propriedades CSS para esconder elementos visualmente da tela.
+
+### 01 - Listas para Todos
+* O CSS interfere no leitor de tela.
+
+### 02 - Escondido Demais
+* Esconder elementos visualmente do site sem interferir no leitor de tela.
