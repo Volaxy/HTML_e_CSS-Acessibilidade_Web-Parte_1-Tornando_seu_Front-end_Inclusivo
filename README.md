@@ -23,14 +23,36 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
     * *SHIFT* + *h* - Ler a hierarquia anterior do título atual.
 * *k* - Ler link seguinte.
     * *SHIFT* + *k* - Ler o link anterior.
+* *g* - Ler próxima imagem do site.
+    * *SHIFT* + *g* - Ler a imagem anterior.
 
 ## 01 - HTML e os Leitores de Tela &#x1F516;
 * Tomar cuidado com a marcação de conteúdo quando estamos utilizando elementos HTML5. Vale mais por uma `<div>` do que usar um `<aside>` ou `<details>` erroneamente.
 * O melhor caminho para deixar nosso projeto inclusivo não é apenas seguir regras e *guidelines*, mas testá-las por conta para começarmos a compreender os caminhos e dificuldades que muitas pessoas podem ter ao usar nosso produto e/ou serviço. Empatia.
-* evitar mais de um `<H1>` na página.
+* Evitar mais de um `<H1>` na página.
 
 ### 01 - Vários h1s na mesma Página
 * Mudar a ordem de precedência dos títuls da página.
 * Atalhos para navegar pela página do site usando o software do **NVDA**.
 
 ***
+
+## 02 - Atributos lang e alt &#x1F516;
+* `alt` nas imagens que possuem função de conteúdo.
+* Escrever o `alt` de maneira descritiva, evitando redundâncias.
+* Configurar o idioma principal do documento com o atributo `lang`.
+* Colocar o elemento `<title>` em SVGs que forem inline (código direto no HTML).
+
+### 01 - Cuidados com o Sotaque
+* Definir o atributo `lang` para frases em outros idiomas.
+
+### 02 - Textos Alternativos
+* Colocar descrições nas imagens de forma direta.
+
+### 03 - Alt e titles
+* Diferença entre o `alt` e o `title`.
+* Colocar descrições em **svg's**.
+
+### 04 - Melhorando o alt
+* Descrever melhor o valor do `alt`.
+* Adicionar um `alt` sem valor para o leitor de leta ignorar.
