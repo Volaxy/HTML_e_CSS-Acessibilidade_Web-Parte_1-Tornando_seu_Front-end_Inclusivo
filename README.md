@@ -70,3 +70,18 @@ URL do curso -> [Acessibilidade Web - Parte 1: Tornando seu Front-end Inclusivo]
 
 ### 02 - Escondido Demais
 * Esconder elementos visualmente do site sem interferir no leitor de tela.
+
+***
+
+## 04 - Um Pouco sobre roles e arias &#x1F516;
+* Atribuir papeis específicos para um elemento no HTML.
+
+### 01 - Pular Navegação
+* Criar um link para o usuário ir para o conteúdo principal.
+* Esconder visualmente o link para o conteúdo principal.
+
+### 02 - facilitando para Outros Leitores
+* Usar o atributo `role` para mudar o papel de um elemento HTML.
+
+### 03 - Uma Ponta do WAI ARIA
+* Fazer o leitor de tela não ter uma redundância ao ler o conteúdo que contem uma imagem.
